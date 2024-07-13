@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #efeeeb;
+    margin: 0;
+    padding: 0;
+}
+
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('background-image.jpg') no-repeat center center/cover;
+    color: #0d0c0c;
+    text-align: center;
+}
+
+.homepage-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.homepage-container p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+}
+
+.category {
+    margin: 0 20px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    border: 2px solid #020202; /* Add this line for the border */
+    border-radius: 10px; /* Optional: rounded corners */
+    padding: 10px; /* Add padding to space out content inside the border */
+}
+
+.category img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.category span {
+    display: block;
+    font-size: 1.2em;
+}
+
+.tasks-container {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 40px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.997);
+}
+
+
+
+textarea {
+    width: 95%;
+    height: 80px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #df9500;
+    border-radius: 6px;
+    font-size: 18px;
+    resize: none;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #b4a871;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #dd8c00;
+}
+
+.task-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-date {
+    font-size: 12px;
+    color: #000000;
+}
+
+.task-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.completed p {
+    text-decoration: line-through;
+    color: rgb(242, 0, 0);
+}
+
+
+
+
